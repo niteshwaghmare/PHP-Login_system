@@ -1,0 +1,152 @@
+html{
+  overflow-y: scroll;
+}
+
+body{
+  background-image: url('img/Urban.png');
+  font-family: 'Titillium Web', sans-serif;
+}
+#box{
+  background-color: rgba(19, 19, 19, 0.22);
+  margin: 100px auto;
+  padding: 40px;
+  position: relative;
+  /* Shadow */
+  -webkit-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75);
+  max-width: 600px;
+}
+.register{
+  height: 550px;
+}
+.login{
+  height: 400px;
+}
+.forget{
+  height: 300px;
+}
+.profile{
+  height: 400px;
+}
+
+.head{
+  text-align: center;
+  font-size: 2em;
+  padding-top: 30px;
+}
+
+.input , .link1 , .message{
+  font-family: 'Droid Sans' , PT-Sans ;
+}
+
+.link1{
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  font-size: 18px;
+}
+.input{
+  width: 99%;
+  height: 100%;
+  border: 3px solid rgb(233, 233, 233);
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 1.2em;
+  outline: none;
+  padding: 5px 0px 5px 5px;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  position: relative;
+}
+.input:focus{
+  border-color: rgb(103, 103, 103);
+}
+.field{
+  /* background-color: rgb(57, 249, 193); */
+  width: 500px;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.button-submit{
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: rgb(92, 189, 62);
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.button-submit:hover{
+  -webkit-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.20);
+}
+
+
+/* profile page style */
+
+.notice{
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.thanks .notice{
+  background-color: rgba(236, 99, 21, 0.56);
+  border-color: rgb(236, 124, 33);
+
+}
+.thanks .message , .error .message{
+  font-size: 1.4em;
+}
+
+.thanks .message{
+  color: rgb(222, 222, 222);
+}
+
+
+.profile .notice{
+  background-color: rgba(155, 235, 76, 0.55);
+  border: 2px solid rgba(95, 139, 50, 1);
+}
+
+.error .notice{
+  background-color: rgba(230, 59, 14, 0.54);
+  border: 2px solid rgb(82, 82, 82);
+}
+
+.message{
+  padding: 30px;
+  font-size: 18px;
+}
+
+.profile a , .thanks a , .error a , .success a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 2em;
+  text-align: center;
+  height: 60px;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  padding-top: 25px;
+}
+#logout{
+  background-color: rgba(65, 193, 233, 0.56);
+}
+#home{
+  background-color: rgba(5, 106, 227, 0.72);
+}

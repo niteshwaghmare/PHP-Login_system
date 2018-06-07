@@ -1,0 +1,1 @@
+CREATE TABLE `systemlogin`.`basiclogin` ( `Name` VARCHAR(120) NOT NULL , `Email` VARCHAR(180) NOT NULL , `Password` VARCHAR(180) NOT NULL , `Hash` VARCHAR(180) NOT NULL , `Contact` VARCHAR(12) NOT NULL , `Active` INT(2) NOT NULL DEFAULT '0' , UNIQUE (`Hash`)) ENGINE = InnoDB;
